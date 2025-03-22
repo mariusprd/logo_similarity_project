@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content=""> 
+        <meta name="author" content="">
+        <title>
+            Kia Motors Cambodia        </title>
+
+        <!-- slideshow home -->
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64301578-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <!-- Bootstrap Core CSS -->
+        <link rel="shortcut icon" href="https://www.kiamotors.com.kh/assets/images/logo_kia.png" />
+
+        <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+        <link href="https://www.kiamotors.com.kh/assets/css/bootstrap.min.css" rel="stylesheet">
+        <!-- W3 CSS -->
+        <link href="https://www.kiamotors.com.kh/assets/css/w3.css" rel="stylesheet">
+
+        <!--        Custom -->
+        <link href="https://www.kiamotors.com.kh/assets/css/custom.css" rel="stylesheet">
+        <link href="https://www.kiamotors.com.kh/assets/css/custom-menu.css" rel="stylesheet">
+        <!--        sub menu -->
+
+        <link href="https://www.kiamotors.com.kh/assets/submenu/yamm.css" rel="stylesheet">
+        <!--        home slideshow -->
+        <link href="https://www.kiamotors.com.kh/assets/css/home-slide.css" rel="stylesheet">
+        <!--        performance slide -->
+        <link href="https://www.kiamotors.com.kh/assets/css/performace.css" rel="stylesheet">
+
+		<!--        call -->
+        <link href="https://www.kiamotors.com.kh/assets/css/call.css" rel="stylesheet">
+		
+        <!-- scroll -->
+        <link rel="stylesheet" type="text/css" href="https://www.kiamotors.com.kh/assets/scroll/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Khmer" rel="stylesheet">
+
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/performance.js"></script>
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/custom.js"></script>
+
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/jssor.slider.debug.js"></script>
+
+        <link href="https://www.kiamotors.com.kh/assets/change_color/onlinespecial.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/change_color/jquery-1.js"></script>
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/change_color/sncScript_UI.js"></script>
+
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+
+        <style type="text/css">
+
+            ul {
+                list-style: none;
+            }
+            #space{
+                overflow: hidden;
+            }
+
+        </style>
+
+        <script>
+            $(function () {
+                $(".check_term").click(function () {
+                   
+                    $('.btn_submit').prop('disabled', $('input.check_term:checked').length == 0);
+                });
+            });
+
+        </script>
+
+        <script type="text/javascript">
+            //jQuery for page scrolling feature - requires jQuery Easing plugin 
+            /* $(function() {
+             $('a.page-scroll').bind('click', function(event) {
+             var $anchor = $(this);
+             $('html, body').stop().animate({
+             scrollTop: $($anchor.attr('href')).offset().top
+             }, 1500, 'easeInOutExpo');
+             event.preventDefault();
+             });
+             });
+             */
+
+
+            $(document).ready(function () {
+                $(document).on("scroll", onScroll);
+
+                //smoothscroll
+
+                $('.right-tabmn[href^="#"]').on('click', function (e) {
+                    e.preventDefault();
+                    $(document).off("scroll");
+
+                    $('a').each(function () {
+                        $(this).removeClass('active');
+                    })
+                    $(this).addClass('active');
+
+                    var target = this.hash,
+                            menu = target;
+                    $target = $(target);
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top + 2
+                    }, 500, 'swing', function () {
+                        window.location.hash = target;
+                        $(document).on("scroll", onScroll);
+                    });
+                });
+            });
+
+            function onScroll(event) {
+
+                var scrollPos = $(document).scrollTop();
+                $('.right-tabmn').each(function () {
+
+                    var currLink = $(this);
+                    //alert(currLink);
+                    var refElement = $(currLink.attr("href"));
+
+                    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                        $('.right-tabmn').removeClass("active");
+                        currLink.addClass("active");
+                    } else {
+                        //alert(refElement.position());
+                        currLink.removeClass("active");
+
+                    }
+
+                });
+            }
+
+
+            /* $('.right-tabmn[href*=#]').each(function () { 
+             
+             if (filterPath(location.pathname) == filterPath(this.pathname)
+             && location.hostname == this.hostname 
+             && this.hash.replace(/#/, '')) {
+             var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
+             var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+             
+             
+             if ($target) {
+             var targetOffset = $target.offset().top;
+             $(this).click(function () {
+             $('html, body').animate({scrollTop: targetOffset}, 800);
+             $('.right-tabmn').removeClass('active');
+             $(this).addClass("active");
+             return false;
+             /// var $targetId = $(this.hash), $targetAnchor = $('')
+             });
+             }
+             }
+             }); */
+        </script>
+
+
+
+        <!-- footer -->
+
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/js-scroll.js"></script>
+
+        <script src="https://www.kiamotors.com.kh/assets/js/jquery.js"></script>
+
+        <script>
+            /* $(function () {
+             window.prettyPrint && prettyPrint()
+             $(document).on('click', '.yamm .dropdown-menu', function (e) {
+             e.stopPropagation()
+             })
+             })*/
+        </script>
+
+        <script>
+            $(document).ready(function () {
+
+                //Check to see if the window is top if not then display button
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('.scrollToTop').fadeIn();
+                    } else {
+                        $('.scrollToTop').fadeOut();
+                    }
+                });
+
+                //Click event to scroll to top
+                $('.scrollToTop').click(function () {
+                    $('html, body').animate({scrollTop: 0}, 800);
+                    return false;
+                });
+
+            });
+        </script>
+
+
+
+        <!-- tweet and share :)-->
+        <script>!function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");</script>
+        <!--        End Sub Menu -->
+        <!--        slideshow homepage -->
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/jssor.slider.mini.js"></script> 
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/home-slide.js"></script>
+        <!--        scroll page-->
+
+        <!--        end slideshow home page-->
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/js/custom.js"></script>
+
+
+        <script src="https://www.kiamotors.com.kh/assets/scroll/jquery.js"></script> 
+        <script src="https://www.kiamotors.com.kh/assets/scroll/viewportchecker.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+
+                jQuery('.post').addClass("visible").viewportChecker({
+                    classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                    offset: 100
+                });
+            });
+        </script>
+
+
+        <!-- home slideshow -->
+
+        <link rel="stylesheet" href="https://www.kiamotors.com.kh/assets/homeslide/clientlib.css" type="text/css">
+        <script async="" src="https://www.kiamotors.com.kh/assets/homeslide/fbds.js"></script>
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/homeslide/lib.js"></script>
+        <script type="text/javascript" src="https://www.kiamotors.com.kh/assets/homeslide/clientlib.js"></script>
+
+
+        <!-- Messenger Chat Plugin Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Chat Plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "1391148521164620");
+          chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v17.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>  
+
+
+
+
+            <!-- Facebook Share -->
+      <meta property="og:image"         content="http://kiamotors.com.kh/assets/images/promotion/loan.jpg"/>
+      <meta property="og:title"         content="INTERESTED IN OWNING A GRAND CARNIVAL, SORENTO, OR SPORTAGE"/>
+      <meta property="og:url"           content="http://www.kiamotors.com.kh/assets/images/promotion/loan.jpg"/>
+      <meta property="og:description"   content="Now you can easily get one through our Kia Loan!..."/>
+      <meta property="og:type"          content="article"/>
+      <meta property="fb:app_id"        content="1745549792386507">
+      <meta property="fb:admins"        content="100008701029873">
+
+
+      <!--Add scripted on 21 August 2024 by Mr. Veasna-->
+
+      <!-- Meta Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1760509954766658');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1760509954766658&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-729864595"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-729864595');
+        </script>
+
+
+        <!-- TikTok Pixel Code Start -->
+        <script>
+        !function (w, d, t) {
+          w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t][];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+        var e=ttq._i[t][],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+        ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+          ttq.load('CR1UPNBC77U8E82N02O0');
+          ttq.page();
+        }(window, document, 'ttq');
+        </script>
+        <!-- TikTok Pixel Code End -->
+
+
+
+        <!--END Add scripted on 21 August 2024 by Mr. Veasna-->
+      
+    </head>
+
+    <body>
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2095493584010070&autoLogAppEvents=1"></script> 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261053111213393&autoLogAppEvents=1"></script>
+    <script type="text/javascript">
+    $(window).load(function () {
+        document.getElementsByClassName("btn-modal")[0].click();
+    });
+</script>
+<style type="text/css">
+    .w3-modal {
+        padding-top: 6%;
+    }
+</style>
+
+<a class="btn-modal" style="display: none;cursor:zoom-in"
+   onclick="document.getElementById('modal01').style.display = 'block'"></a>
+
+<!--<div id="modal01" class="w3-modal" onclick="this.style.display = 'none'">-->
+<!--    <span class=" w3-container w3-display-topright cursor" style="font-size: 56px; color: #BB162B; cursor: pointer;" onclick="closeModal()">&times;</span>-->
+<!--    <div class="w3-modal-content w3-animate-zoom">-->
+<!--        <div class="embed-responsive embed-responsive-16by9">-->
+<!--            <iframe id="player" class="embed-responsive-item" src="//www.youtube.com/embed/xxctbyC_ECE?rel=0&autoplay=1&loop=1"></iframe>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".btn-modal").click(function () {
+            
+           
+            
+        });
+    });
+</script>        <!--         navbar-fixed-top-->
+        <style type="text/css">
+
+</style>
+<script type="text/javascript">
+    ///tab-pane
+
+    $(document).on('click', '.yamm .dropdown-menu', function (e) {
+
+        $(".dropdown").addClass("open");
+        var p = $(".dropdown").attr('data');
+        e.stopPropagation();
+    });
+</script>
+
+<nav class="navbar yamm navbar-inverse navbar-custom " role="navigation">
+    <div class="container" style="margin-top:15px;">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-logo" href="https://www.kiamotors.com.kh/">
+                <img src="https://www.kiamotors.com.kh/assets/images/lg_kia.png" class="img-responsive" />
+                <div class="clear"></div>
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav top-menu navbar-right">
+                <li class="dropdown" data="model">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Showroom</a>
+                    <ul class="dropdown-menu top-dropdown">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav  nav-tabs menu-tab" role="tablist">
+                                        <li role="presentation" class="active"><a href="#all_vehicle" aria-controls="all_vehicle" role="tab" data-toggle="tab">All Vehicles</a></li>
+                                                                                    <li role="presentation"><a href="#tab-cat1" aria-controls="tab-cat1" role="tab" data-toggle="tab">Cars</a></li>
+                                                                                        <li role="presentation"><a href="#tab-cat2" aria-controls="tab-cat2" role="tab" data-toggle="tab">SUV & MPV</a></li>
+                                                                                        <li role="presentation"><a href="#tab-cat3" aria-controls="tab-cat3" role="tab" data-toggle="tab">Commercial Vehicle</a></li>
+                                                                                </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content row" style="">
+                                        <div role="tabpanel" class="tab-pane active" id="all_vehicle">
+
+                                            <div class="hold-thumb">
+                                                                                                            <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                <a href="https://www.kiamotors.com.kh/page/model_description/1" class="thumbnail">
+                                                                    <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/_model-thumbnail_PICANTO.jpg">
+                                                                </a>
+                                                                <a  href="https://www.kiamotors.com.kh/page/model_description/1" class="model-title">Picanto</a>
+                                                                <a href="https://www.kiamotors.com.kh/page/model_description/1">
+                                                                    <div class="img-top
+                                                                        <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/_model-thumbnail_PICANTO.jpg">
+                                                                        <!--<img alt="" src="https://www.kiamotors.com.kh/assets/picanto_2018.png">-->
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                <a href="https://www.kiamotors.com.kh/page/model_description/3" class="thumbnail">
+                                                                    <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/sorento_.jpg">
+                                                                </a>
+                                                                <a  href="https://www.kiamotors.com.kh/page/model_description/3" class="model-title">Sorento</a>
+                                                                
+                                                            </div>
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                <a href="https://www.kiamotors.com.kh/page/model_description/2" class="thumbnail">
+                                                                    <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/07.Carnival-7s.jpg">
+                                                                </a>
+                                                                <a  href="https://www.kiamotors.com.kh/page/model_description/2" class="model-title">Carnival</a>
+                                                                
+                                                            </div>
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                <a href="https://www.kiamotors.com.kh/page/model_description/8" class="thumbnail">
+                                                                    <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/08.Kia-2700.jpg">
+                                                                </a>
+                                                                <a  href="https://www.kiamotors.com.kh/page/model_description/8" class="model-title">K2700</a>
+                                                                
+                                                            </div>
+                                                                                                    </div>
+                                        </div>
+
+                                                                                    <div role="tabpanel" class="tab-pane" id="tab-cat1">
+                                                <div class="hold-thumb" >
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                    <a href="https://www.kiamotors.com.kh/page/model_description/1" class="thumbnail">
+                                                                        <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/_model-thumbnail_PICANTO.jpg">
+                                                                    </a>
+                                                                    <a  href="https://www.kiamotors.com.kh/page/model_description/1" class="model-title">Picanto</a>
+                                                                    <a href="https://www.kiamotors.com.kh/page/model_description/1">
+                                                                        <div class="img-top">
+                                                                            <img alt="" src="https://www.kiamotors.com.kh/assets/picanto_2018.png">
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            
+                                                </div>
+                                            </div>
+                                                                                        <div role="tabpanel" class="tab-pane" id="tab-cat2">
+                                                <div class="hold-thumb" >
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                    <a href="https://www.kiamotors.com.kh/page/model_description/3" class="thumbnail">
+                                                                        <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/sorento_.jpg">
+                                                                    </a>
+                                                                    <a  href="https://www.kiamotors.com.kh/page/model_description/3" class="model-title">Sorento</a>
+                                                                    
+                                                                </div>
+                                                                                                                            <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                    <a href="https://www.kiamotors.com.kh/page/model_description/2" class="thumbnail">
+                                                                        <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/07.Carnival-7s.jpg">
+                                                                    </a>
+                                                                    <a  href="https://www.kiamotors.com.kh/page/model_description/2" class="model-title">Carnival</a>
+                                                                    
+                                                                </div>
+                                                            
+                                                </div>
+                                            </div>
+                                                                                        <div role="tabpanel" class="tab-pane" id="tab-cat3">
+                                                <div class="hold-thumb" >
+                                                                                                                    <div class="col-xs-6 col-sm-2 thumb-menu">
+                                                                    <a href="https://www.kiamotors.com.kh/page/model_description/8" class="thumbnail">
+                                                                        <img alt="" src="https://www.kiamotors.com.kh/assets/images/model/08.Kia-2700.jpg">
+                                                                    </a>
+                                                                    <a  href="https://www.kiamotors.com.kh/page/model_description/8" class="model-title">K2700</a>
+                                                                    
+                                                                </div>
+                                                            
+                                                </div>
+                                            </div>
+                                                                                </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                                <li class="">
+                    <a href="https://www.kiamotors.com.kh/page/shopping_tool">Shopping Tools</a>
+                </li>
+                
+                
+                                <li class="">
+                    <a href="https://www.kiamotors.com.kh/page/services">Service</a>
+                </li>
+                
+
+                                <li class="">
+                    <a href="https://www.kiamotors.com.kh/page/contact">Contact Us</a>
+                </li>
+
+                <li class="discover-kia">
+                    <a href="https://worldwide.kia.com/int/our-movement" target="_blank">Discover Kia</a>
+                </li>
+
+                <!-- <li>
+                    <a href=" " >Why Kia</a>
+                </li> -->
+                
+                
+
+
+            </ul>
+
+           
+
+        </div>
+        <!-- /.navbar-collapse -->
+        </div><!--col-lg-12-->
+    </div>
+    <!-- /.container -->
+</nav>        <!-- End Navigation -->
+        <div class="h-slide">
+            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 535px; overflow: hidden; visibility: hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                    <div style="position:absolute;display:block;background:url('https://www.kiamotors.com.kh/assets/images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                </div>
+                <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 535px; overflow: hidden;">
+                    <div>
+                        <img u="image" src="https://www.kiamotors.com.kh/assets/images/slide/main3.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" src="https://www.kiamotors.com.kh/assets/images/slide/main4.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" src="https://www.kiamotors.com.kh/assets/images/slide/main5.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" src="https://www.kiamotors.com.kh/assets/images/slide/main6.jpg" />
+                    </div>
+                </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb05" style="bottom:16px; right:16px;" data-autocenter="1">
+                    <!-- bullet navigator item prototype -->
+                    <div data-u="prototype" style="width:16px;height:16px;"></div>
+                </div>
+                <!-- Arrow Navigator -->
+                <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <!--        footer-->
+         <div class="menu-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="mn-footer">
+                            <li>
+                                <a href="https://www.kiamotors.com.kh/page/shopping_tool">
+                                   
+                                    Shopping tool
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.kiamotors.com.kh/page/services">
+                                    
+                                    Service 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://worldwide.kia.com/int/our-movement" target="_blank">
+                                    
+                                    Discover Kia
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hold-footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                            <p class="copyright" style="font-size: 11px;">COPYRIGHT (C)   KIA MOTORS CAMBODIA. ALL RIGHTS RESERVED.</p>
+                        </div> -->
+                        <div class="col-lg-7 col-md-7 col-sm-7" style="text-align:left;">
+                            <!-- <a target="_blank"  href="https://www.facebook.com/kiamotorsKH">
+                                <img src="assets/images/fb.png" style="height: 15px; float: left; margin: 5px;"/>
+                            </a> -->                           
+
+
+                            <!-- <a target="_blank"  href="https://www.instagram.com/kiamotors_kh/">
+                                <img src="assets/images/instagram.png" style="height: 15px; float: left; margin: 5px;"/>
+                            </a>
+                            <a  target="_blank"  href="https://www.youtube.com/channel/UC541b9BF8G5vGZH44Mr-Zgw">
+                                <img src="assets/images/youtube.png" style="height: 15px; float: left; margin: 5px;"/>
+                            </a> -->
+
+
+                            
+
+                            <ul class="sns">
+
+                                <li>
+                                    <p class="cpy" style="margin-right: 20px;">Kia in <strong>Cambodia</strong></p>
+                                </li>
+                                <li class="sns__item">
+                                    <a href="https://www.facebook.com/kiamotorsKH" target="_blank" rel="noopener noreferrer" class="sns__link sns__link--facebook" data-dl="" data-dl-sns="Facebook">
+                                    <span class="a11y">Go to facebook</span>
+                                    </a>
+                                </li>
+                                
+                                <li class="sns__item">
+                                    <a href="https://www.instagram.com/kiacambodiakh/" target="_blank" rel="noopener noreferrer" class="sns__link sns__link--instagram" >
+                                    <span class="a11y">Go to instagram</span>
+                                    </a>
+                                </li>
+
+                                <li class="sns__item">
+                                    <a href="https://www.youtube.com/@KiaCambodiaOfficial" target="_blank" rel="noopener noreferrer" class="sns__link sns__link--youtube" >
+
+                                    <span class="a11y">Go to youtube</span>
+                                    </a>
+                                </li>
+
+                                <li class="sns__item">
+                                    <a href="https://www.linkedin.com/company/kiacambodia" target="_blank" rel="noopener noreferrer" class="sns__link sns__link--linkedin" >
+
+                                    <span class="a11y">Go to linkedin</span>
+                                    </a>
+                                </li>
+
+                                <li class="sns__item">
+                                    <a href="https://t.me/kiamotorskh" target="_blank" rel="noopener noreferrer" class="sns__link" >
+                                        <i class="fa-brands fa-telegram" style="font-size:24px;display: inline-block;padding-top: 7px;"></i>
+                                    <span class="a11y">Go to telegram</span>
+                                    </a>
+                                </li>
+
+                                
+
+                                
+
+                            </ul>
+
+
+                            <!-- Cambodia <img src="assets/images/cambodia.png" style="height: 15px; float: left; margin: 5px;"/>
+                            <img src="assets/images/img_logo2.png" class="img-responsive" style="position: absolute; margin-top: -65px; right: 0;"/> -->
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align:right;">
+                            <p class="copyright">Copyright ©  2025 A&A Auto Group Co., Ltd. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    end footer-->
+        
+        <style type="text/css">
+
+            .fb_messenger {
+                position: fixed;
+                bottom: 70px;
+                z-index: 99999;
+                right: 40px;
+            }
+
+            .fa-facebook-messenger{
+                background-color: #0c78ff;
+                border-radius: 50%;
+                padding: 12px;
+            }
+            
+
+            .fb_messenger a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 33px;
+            }
+
+            @media screen and (max-width: 500px) {
+
+                .fb_messenger {
+                    bottom: 110px;
+                    right: 20px;
+                }
+
+        </style>
+
+
+        <div class="fb_messenger">
+            <a href="https://m.me/1391148521164620" title="Chat with us on Facebook Messenger">
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </a>
+        </div>
+
+
+        <!-- button scroll to top -->
+        <button class="btn btn-danger btn-sm scrollToTop" style="display: none;position: fixed; bottom: 10px; z-index: 300;right: 0;"><span class="glyphicon glyphicon-chevron-up"></span></button>        
+        <!--<a id="startInterstitial" href="#">Interstitial</a>-->
+
+
+    </body>
+    </html>       

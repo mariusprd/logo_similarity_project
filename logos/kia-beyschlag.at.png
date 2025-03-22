@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	TYPO3 Umsetzung von Modern Eyes - TYPO3 und mehr - https://www.modern-eyes.de
+
+-->
+
+<base href="https://www.kia-beyschlag.at">
+
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="rating" content="General">
+<meta name="revisit" content="7">
+<meta name="language" content="de">
+<meta name="author" content="Athanasios Lasos, Ellen Herbes">
+<meta name="robots" content="index,follow">
+<meta name="copyright" content="AVAG Holding SE (c) 2023">
+<meta property="og:title" content="Beyschlag - Ihr Kia Partner in Wien: Beste Auswahl, Bester Preis!">
+<meta property="og:url" content="https://www.kia-beyschlag.at/">
+<meta property="og:description" content="Kia Beyschlag - Werkstatt, Lackiererei, Neuwagen- und Gebrauchtwagen Verkauf mit Finanzierung, Leasing und allen Serviceleistungen rund um´s Auto">
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website" /><meta property="og:image" content="https://www.kia-beyschlag.at/" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="template/css/style.min.css?v=1.0.3" rel="stylesheet">
+  <link href="template/css/print.min.css" rel="stylesheet" media="print" />
+  <script src="template/jquery/jquery.min.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="template/css/kia.css" /><script src="https://allesauto.epccm19.com/app.js?apiKey=3de6214b724372df6f3bb45b070922baf5df66aef2313c96&amp;domain=72e8fce" referrerpolicy="origin"></script>
+	<title>Beyschlag - Ihr Kia Partner in Wien: Beste Auswahl, Bester Preis!</title>
+	<meta name="title" content="Beyschlag - Ihr Kia Partner in Wien: Beste Auswahl, Bester Preis!" />
+	<meta name="keywords" content="kia,wien,gebrauchtwagen,neuwagen, werkstatt, leasing" />
+	<meta name="description" content="Kia Beyschlag - Werkstatt, Lackiererei, Neuwagen- und Gebrauchtwagen Verkauf mit Finanzierung, Leasing und allen Serviceleistungen rund um´s Auto" />
+	<meta name="date" content="2025-02-12" />
+	<link rel="canonical" href="https://www.kia-beyschlag.at/" />
+	
+
+<link rel="stylesheet" type="text/css" href="/typo3conf/ext/user_avag_fractionslider/res/bootstrap.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/typo3conf/ext/user_avag_gwboerse/res/bootstrap.min.css" media="screen" /><link rel="stylesheet" type="text/css" href="/typo3conf/ext/user_avag_gwboerse/res/bootstrap_print.min.css" media="print" />
+</head>
+<body id="page">
+
+
+  <a id="top" name="top"></a>
+
+
+  <nav class="navbar navbar-inverse" id="site-navigation">
+    <div class="container">
+      <!-- <div class="navbar-header navbar-header-center"> -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Menu umschalten</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!-- </div> -->
+      <span class="navbar-brand"><a href="/"><img src="fileadmin/kia_logo.png" alt="KIA"></a></span>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav"><li class="dropdown"><a href="fahrzeuge/aus-unserer-werbung.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fahrzeuge&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="fahrzeuge/aus-unserer-werbung.html">Aus unserer Werbung</a></li><li><a href="fahrzeuge/stop-auto-netto.html">Stop Auto-Netto</a></li><li><a href="fahrzeuge/schnaeppchen.html">Schnäppchen</a></li><li><a href="fahrzeuge/online-store.html">Online Store</a></li><li><a href="fahrzeuge/modelluebersicht.html">Modellübersicht</a></li><li><a href="fahrzeuge/e-auto-berater.html">e-Auto - Berater</a></li><li><a href="fahrzeuge/schauraum-bestand.html">Schauraum-Bestand</a></li><li><a href="fahrzeuge/gebrauchtwagen.html">Gebrauchtwagen</a></li><li><a href="fahrzeuge/beyschlag-flotte.html">Beyschlag-Flotte</a></li></ul></li><li class="dropdown"><a href="firmenkunden/business-profis.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Firmenkunden&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="firmenkunden/aus-unserer-werbung.html">Aus unserer Werbung</a></li><li><a href="firmenkunden/business-profis.html">Business Profis</a></li><li><a href="fahrzeuge/online-store.html">Online-Store</a></li><li><a href="fahrzeuge/modelluebersicht.html">Modellübersicht</a></li></ul></li><li><a href="wir-kaufen-ihr-auto.html">Wir kaufen Ihr Auto</a></li><li class="dropdown"><a href="werkstatt/aktuelle-angebote.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Werkstatt&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="werkstatt/aktuelle-angebote.html">Aktuelle Angebote</a></li><li><a href="werkstatt/kostenlose-teilzahlung.html">kostenlose Teilzahlung</a></li><li><a href="werkstatt/7-jahre-werksgarantie.html">7 Jahre Werksgarantie</a></li><li><a href="werkstatt/null-prozent-finanzierung.html">Sorgenfrei Werkstatt Finanzierung</a></li><li><a href="werkstatt/mykia.html">MyKia</a></li><li><a href="werkstatt/glasservice.html">Glasservice</a></li><li><a href="werkstatt/terminvereinbarung.html">Terminvereinbarung</a></li><li><a href="werkstatt/termin-raederwechsel.html">Termin Räderwechsel</a></li></ul></li><li class="dropdown"><a href="teile-zubehoer/teile-zubehoer-angebote.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teile & Zubehör&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="teile-zubehoer/teile-zubehoer-angebote.html">Teile & Zubehör-Angebote</a></li><li><a href="teile-zubehoer/reifen-angebote.html">Reifen-Angebote</a></li></ul></li><li class="dropdown"><a href="ueber-uns/standorte.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Über uns&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="ueber-uns/standorte.html">Standorte</a></li><li><a href="ueber-uns/stellenangebote.html">Stellenangebote</a></li><li><a href="ueber-uns/lehrberufe-beim-beyschlag.html">Lehrberufe beim Beyschlag</a></li><li><a href="ueber-uns/ihr-feedback.html">Ihr Feedback</a></li><li><a href="kontakt/kontakt.html">Kontakt</a></li><li><a href="kontakt/probefahrt.html">Probefahrt</a></li><li><a href="ueber-uns/nachhaltigkeit.html">Nachhaltigkeit</a></li></ul></li></ul>
+      </div>
+    </div>
+    <div class="sub-nav"><div class="container"><div class="row"><div class="col-lg-4 col-md-4 hidden-sm hidden-xs"><strong>Opel&Beyschlag GmbH</strong></div><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center"><strong>Tel:&nbsp;<a href="tel:+4313701540">01/ 370 15 40</a></strong></div><div class="col-lg-4 col-md-4 hidden-sm hidden-xs text-right"><a href="ueber-uns/standorte.html" class="btnSmall">Anfahrt <span>&gt;</span></a></div></div></div></div>
+  </nav>
+
+<a id="c343"></a><section class="full-content"><a id="c250"></a><div class="slider-container"><div id="layerslider-250" class="carousel slide layerslider" data-ride="carousel" data-interval="7000"><ol class="carousel-indicators"><li data-target="#layerslider-250" data-slide-to="0" class="active"></li><li data-target="#layerslider-250" data-slide-to="1" class=""></li><li data-target="#layerslider-250" data-slide-to="2" class=""></li><li data-target="#layerslider-250" data-slide-to="3" class=""></li><li data-target="#layerslider-250" data-slide-to="4" class=""></li><li data-target="#layerslider-250" data-slide-to="5" class=""></li></ol><div class="carousel-inner" role="listbox"><div class="item active"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer" style="left:0%;top:0%;width:100%;"><a href="/fahrzeuge/stop-auto-netto.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000010886_20250212_140031.webp" alt="Ebene 1" class="" style="" /></a></div>
+</div><div class="item"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer" style="left:0%;top:0%;width:100%;"><a href="https://www.kia-beyschlag.at/fahrzeuge/aus-unserer-werbung/kia-ev3.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000010695_20240930_134549.webp" alt="KIA EV3" class="" style="" /></a></div>
+</div><div class="item"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer animated fadeIn" style="left:0%;top:0%;width:100%;"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007701_20230202_153839.webp" alt="Innovationsprämie Kia" class="" style="" /></div>
+<div class="layer" style="left:0%;top:0%;width:100%;animation-delay:200ms;"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007704_20211012_115840.webp" alt="Headline 1" class="animated fadeInDown" style="animation-delay:200ms;" /></div>
+<div class="layer" style="left:0%;top:0%;width:100%;animation-delay:1000ms;"><a href="/fahrzeuge/modelluebersicht/ev6.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007703_20211012_115748.webp" alt="Button" class="animated fadeIn" style="animation-delay:1000ms;" /></a></div>
+</div><div class="item"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer animated fadeIn" style="left:0%;top:0%;width:100%;"><a href="/fahrzeuge/modelluebersicht/kia-ceed-familie.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007705_20211012_144446.webp" alt="Kia Ceed Proceed SW" class="" style="" /></a></div>
+<div class="layer" style="left:0%;top:0%;width:100%;animation-delay:200ms;"><a href="/fahrzeuge/modelluebersicht/kia-ceed-familie.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007707_20211012_144434.webp" alt="Headline 1" class="animated fadeInDown" style="animation-delay:200ms;" /></a></div>
+<div class="layer" style="left:0%;top:0%;width:100%;animation-delay:400ms;"><a href="/fahrzeuge/modelluebersicht/kia-ceed-familie.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007708_20211012_144518.webp" alt="Headline 2" class="animated fadeInDown" style="animation-delay:400ms;" /></a></div>
+<div class="layer" style="left:0%;top:0%;width:100%;animation-delay:1000ms;"><a href="/fahrzeuge/modelluebersicht/kia-ceed-familie.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000007706_20211012_144552.webp" alt="Button" class="animated fadeIn" style="animation-delay:1000ms;" /></a></div>
+</div><div class="item"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer" style="left:0%;top:0%;width:100%;"><a href="https://www.kia-beyschlag.at/fahrzeuge/aus-unserer-werbung/schnaeppchenjaeger-aufgepasst.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000009680_20231009_113949.webp" alt="Ebene 2" class="" style="" /></a></div>
+</div><div class="item"><img src="/template/lazy2.php?w=1920&h=500" alt="Placeholder" /><div class="layer" style="left:0%;top:0%;width:100%;"><a href="/fahrzeuge/schnaeppchen.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000009699_20231102_093409.webp" alt="Ebene 2" class="" style="" /></a></div>
+<div class="layer animated bounce" style="left:0%;top:0%;width:100%;animation-delay:500ms;"><a href="/fahrzeuge/schnaeppchen.html"><img src="uploads/tx_useravaggwboerse/gw000/slider/webp/dio_LayerImage_0000008966_20250226_144544.webp" alt="Ebene 1" class="" style="animation-delay:500ms;" /></a></div>
+</div></div><a class="left carousel-control" href="#layerslider-250" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Zurück</span></a><a class="right carousel-control" href="#layerslider-250" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Weiter</span></a></div></div></section><div id="c2349" class="csc-frame csc-frame-default"><section class="section-white"><div class="container"><div class="row"><div id="c2350" class="csc-frame csc-frame-default"><figure class="avag-image text-center"><a href="werkstatt/termin-raederwechsel.html" ><img src="/template/lazy.php?w=550&h=150" data-src="uploads/tx_useravagimages/webp/reifenwechseltage.webp" alt="Termin Reifenwechsel" class="lazyload img-responsive" /></a></figure></div></div></div></section></div><div id="c2" class="csc-frame csc-frame-default"><section class="section-white"><div class="container"><div class="row"><div class="col-lg-12"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Willkommen beim Beyschlag - Ihr Kia Partner!</h1></div></div></div></div></section></div><div id="c3332" class="csc-frame csc-frame-default"><section class="section-dark section-dark-small"><div class="container"><div class="row"><div class="col-lg-12"><div class="row avag-cta"><div class="owl-carousel bootstrap-carousel dynamicOwlCarousel" id="topCarouse12555"><div class="item"><a href="/fahrzeuge/aus-unserer-werbung.html" class="btn btn-primary btn-block cta-2"><span class="fa fa-tag"></span>Aktuelle Angebote</a></div><div class="item"><a href="/werkstatt/aktuelle-angebote.html" class="btn btn-primary btn-block cta-3"><span class="fa fa-wrench"></span>Werkstattangebote</a></div><div class="item"><a href="/teile-zubehoer/teile-zubehoer-angebote.html" class="btn btn-primary btn-block cta-4"><span class="fa fa-gears"></span>Teile & Zubehör</a></div><div class="item"><a href="/teile-zubehoer/reifen-angebote.html" class="btn btn-primary btn-block cta-1"><span class="fa fa-support"></span>Reifenangebote</a></div><div class="item"><a href="/ueber-uns/standorte.html" class="btn btn-primary btn-block cta-2"><span class="fa fa-map-marker"></span>Standorte</a></div><div class="item"><a href="/ueber-uns/stellenangebote.html" class="btn btn-primary btn-block cta-3"><span class="fa fa-briefcase"></span>Stellenangebote</a></div><div class="item"><a href="https://www.facebook.com/opelbeyschlag" target="_blank" class="btn btn-primary btn-block cta-4"><span class="fa fa-facebook-f"></span>Facebook</a></div></div></div></div></div></div></section></div><div id="c3608" class="csc-frame csc-frame-default"><section class="section-white"><div class="container"><div class="row"><div class="col-lg-12"><div class="user-avaggwboerse-pi1">
+		<div class="teaser teaser-color5">
+  <a href="fahrzeuge/online-store.html">
+  <img src="uploads/tx_useravagbaseball/Kia_Range.jpg" />
+  <div class="teaser-overlay"></div>
+  <div class="teaser-text">
+    Wir haben aktuell<br />
+    <span style="font-size:3em;font-weight:bold;display:block;" class="counting" data-value="559">559</span>
+    Fahrzeuge lagernd
+  </div>
+  </a>
+</div>
+<div class="text-center carousel-text"><p class="bodytext"></p></div>
+	</div>
+	</div></div></div></section></div><div id="c3" class="csc-frame csc-frame-default"><section class="full-content"><div class="col-lg-12"><figure class="avag-image text-center"><img src="/template/lazy.php?w=1920&h=480" data-src="uploads/tx_useravagimages/webp/e-Range_Kia.webp" alt="Kia Mobilität" class="lazyload img-responsive" /></figure></div></section></div><div id="c4" class="csc-frame csc-frame-default"><section class="section-white"><div class="container"><div class="row"><div class="col-lg-12"><div class="csc-header csc-header-n1"><div class="page-header"><h1>Die Top Gebrauchtwagen Angebote</h1></div></div></div><div class="col-lg-12"><div class="user-avaggwboerse-pi1">
+		<div id="myCarousel242" class="owl-carousel bootstrap-carousel">
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/kia-rio-12-dpi-neon-isg-dab-radioklimaanlagebluetoothusb-2107018.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/5869_1.jpg" class="lazyload img-responsive" alt="Kia Rio  Neon  1.2 Klimaanlage,Bluetooth,USB,Radio," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/kia-rio-12-dpi-neon-isg-dab-radioklimaanlagebluetoothusb-2107018.html">Kia Rio  Neon  1.2 Klimaanlage,Bluetooth,USB,Radio, </a></h4>
+
+          <div class="h1 h1-clean">12.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">97,-</span> €</div>
+  <div class="h5">Anzahlung 3.897,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>14.999 km</li>
+            <li>EZ 03/2023</li>            <li>62 kW / 84 PS</li>
+                        <li>Rot</li>
+            <li>Handschaltung</li>
+            <li>Benzin</li>
+          </ul>
+          <p>
+
+
+
+  Kraftstoffverbr. komb. (WLTP): 6 l/100km<br />         CO2-Emissionen komb. (WLTP): 139 g/km<br />    CO2-Klasse: E <br />        
+
+
+
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/kia-rio-12-dpi-neon-isg-dab-radioklimaanlagebluetoothusb-2107018.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2107018&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-corsa-12-turbo-elegance-klimatronicrueckfahrkamerasitz-lenkradheizung-2122728.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/6412_1.jpg" class="lazyload img-responsive" alt="Opel Corsa  1.2 Turbo Elegance Klimatronic,Rückfahrkamera,Sitz + Lenkradheizung," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-corsa-12-turbo-elegance-klimatronicrueckfahrkamerasitz-lenkradheizung-2122728.html">Opel Corsa  1.2 Turbo Elegance Klimatronic,Rückfahr ... </a></h4>
+
+          <div class="h1 h1-clean">13.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">142,-</span> €</div>
+  <div class="h5">Anzahlung 5.387,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>10.999 km</li>
+            <li>EZ 12/2022</li>            <li>74 kW / 101 PS</li>
+                        <li>Rot</li>
+            <li>Handschaltung</li>
+            <li>Benzin</li>
+          </ul>
+          <p>
+
+  Kraftstoffverbr. (komb./inner./au&szlig;er.):<br />4,1 / 4,8 / 3,7 l/100km<br />    CO2-Emissionen kombiniert: 93 g/km<br />
+              CO2-Effizienzklasse:
+                                                        A                                                                                                          </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-corsa-12-turbo-elegance-klimatronicrueckfahrkamerasitz-lenkradheizung-2122728.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2122728&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-astra-16-turbo-phev-gs-line-aut-e-importeur-bonus-bereits-abgezogen-2094179.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/4828_1.jpg" class="lazyload img-responsive" alt="Opel Astra  GS Line PHEV 1.6 Automatik Navi,Rückfahrkamera,LED Scheinwerfer," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-astra-16-turbo-phev-gs-line-aut-e-importeur-bonus-bereits-abgezogen-2094179.html">Opel Astra  GS Line PHEV 1.6 Automatik Navi,Rückfah ... </a></h4>
+
+          <div class="h1 h1-clean">22.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">247,-</span> €</div>
+  <div class="h5">Anzahlung 9.897,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>10.999 km</li>
+            <li>EZ 01/2023</li>            <li>110 kW / 150 PS</li>
+                        <li>Kardio Rot</li>
+            <li>Automatik</li>
+            <li>Hybrid Benzin Plugin</li>
+          </ul>
+          <p>
+
+
+
+    Kraftstoffverbr. komb. gewichtet (WLTP): 1 l/100km<br />     Stromverbrauch komb. gewichtet (WLTP): 14,9 kWh/100km<br />  CO2-Emissionen komb. (WLTP): 0 g/km<br />  CO2-Emissionen komb. gewichtet (WLTP): 26 g/km<br />    CO2-Klasse kombiniert gewichtet: B <br />      
+
+
+Elektrische Reichweite nach WLTP**:<br />59 km<br />
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-astra-16-turbo-phev-gs-line-aut-e-importeur-bonus-bereits-abgezogen-2094179.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2094179&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-feel-pack-parksensorrueckfahrkamerasitz-lenkradheizung-2099.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/5636_1.jpg" class="lazyload img-responsive" alt="Citroen e-C4X  Elektromotor 136 50kWh Feel Pack Parksensor,Rückfahrkamera,Sitz + Lenkradheizung," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-feel-pack-parksensorrueckfahrkamerasitz-lenkradheizung-2099.html">Citroen e-C4X  Elektromotor 136 50kWh Feel Pack Par ... </a></h4>
+
+          <div class="h1 h1-clean">22.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>21.300 km</li>
+            <li>EZ 03/2023</li>            <li>100 kW / 136 PS</li>
+                        <li>Banquise Weiß</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 15,5 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />360 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-feel-pack-parksensorrueckfahrkamerasitz-lenkradheizung-2099.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2099808&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-mokka-e-elektromotor100-kw-elegance-e-voll-led-lichtdab-radiorueckfahrkamera-2098151.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/4964_1.jpg" class="lazyload img-responsive" alt="Opel Mokka-e  Elektromotor100 kW Elegance-e Voll-LED Licht,DAB-Radio,Rückfahrkamera," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-mokka-e-elektromotor100-kw-elegance-e-voll-led-lichtdab-radiorueckfahrkamera-2098151.html">Opel Mokka-e  Elektromotor100 kW Elegance-e Voll-LE ... </a></h4>
+
+          <div class="h1 h1-clean">22.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">176,-</span> €</div>
+  <div class="h5">Anzahlung 6.897,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>19.360 km</li>
+            <li>EZ 08/2022</li>            <li>100 kW / 136 PS</li>
+            <li>Batteriekapazität: 50 kWh</li>            <li>Power Rot</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 15,8 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />338 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-mokka-e-elektromotor100-kw-elegance-e-voll-led-lichtdab-radiorueckfahrkamera-2098151.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2098151&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/peugeot-expert-premium-kasten-l2h1-bluehdi-ss-120-klimaparkpilotnavigationbluetooth-2085545.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/5214_1.jpg" class="lazyload img-responsive" alt="Peugeot Expert  Premium Kasten L2H1 BlueHDi S&amp;S 120 Klima,Parkpilot,Navigation,Bluetooth" width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/peugeot-expert-premium-kasten-l2h1-bluehdi-ss-120-klimaparkpilotnavigationbluetooth-2085545.html">Peugeot Expert  Premium Kasten L2H1 BlueHDi S&S 120 ... </a></h4>
+
+          <div class="h1 h1-clean">23.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">256,-</span> €</div>
+  <div class="h5">Anzahlung 8.900,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>17.999 km</li>
+            <li>EZ 06/2022</li>            <li>88 kW / 120 PS</li>
+                        <li>Grau</li>
+            <li>Handschaltung</li>
+            <li>Diesel</li>
+          </ul>
+          <p>
+
+  Kraftstoffverbr. (komb./inner./au&szlig;er.):<br />4,8 / 5,2 / 4,6 l/100km<br />    CO2-Emissionen kombiniert: 127 g/km<br />
+              CO2-Effizienzklasse:
+                                                        A                                                                                                          </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/peugeot-expert-premium-kasten-l2h1-bluehdi-ss-120-klimaparkpilotnavigationbluetooth-2085545.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2085545&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/kia-xceed-16-gdi-gpf-hybrid-phev-gold-dct-dabledparksensorrueclfahrkameranaviklima-2104586.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/5792_1.jpg" class="lazyload img-responsive" alt="Kia Xceed  PHEV 1.6 GDI Gold DCT Navi,Rückfahrkamera,Klimaautomatik" width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/kia-xceed-16-gdi-gpf-hybrid-phev-gold-dct-dabledparksensorrueclfahrkameranaviklima-2104586.html">Kia Xceed  PHEV 1.6 GDI Gold DCT Navi,Rückfahrkamer ... </a></h4>
+
+          <div class="h5">Preis bei Finanzierung</div>
+          <div class="h1 h1-clean">23.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">151,-</span> €</div>
+  <div class="h5">Anzahlung 7.197,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>19.026 km</li>
+            <li>EZ 05/2023</li>            <li>77 kW / 105 PS</li>
+                        <li>Lunar Silber</li>
+            <li>Automatik</li>
+            <li>Hybrid Benzin Plugin</li>
+          </ul>
+          <p>
+
+
+
+    Kraftstoffverbr. komb. gewichtet (WLTP): 1,1 l/100km<br />     Stromverbrauch komb. gewichtet (WLTP): 14 kWh/100km<br />  CO2-Emissionen komb. (WLTP): 0 g/km<br />  CO2-Emissionen komb. gewichtet (WLTP): 29 g/km<br />    CO2-Klasse kombiniert gewichtet: B <br />  Kraftstoffverbr. bei entladener Batterie komb.:
+    6,3 l/100km<br />   CO2-Emissionen bei entladener Batterie (WLTP): 149 g/km<br />  CO2-Klasse bei entladener Batterie: E <br />
+
+
+Elektrische Reichweite nach WLTP**:<br />50 km<br />
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/kia-xceed-16-gdi-gpf-hybrid-phev-gold-dct-dabledparksensorrueclfahrkameranaviklima-2104586.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2104586&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungparkpilot-2094169.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/4374_1.jpg" class="lazyload img-responsive" alt="Citroen C5X  Feel Hybrid 225 e-EAT8 Navi,Rückfahrkamera,Sitzheizung,Parkpilot,LED" width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungparkpilot-2094169.html">Citroen C5X  Feel Hybrid 225 e-EAT8 Navi,Rückfahrka ... </a></h4>
+
+          <div class="h1 h1-clean">25.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">395,-</span> €</div>
+  <div class="h5">Anzahlung 11.900,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Gebrauchtwagen</li>
+            <li>17.500 km</li>
+            <li>EZ 10/2022</li>            <li>132 kW / 179 PS</li>
+                        <li>Amazonas-Grün</li>
+            <li>Automatik</li>
+            <li>Hybrid Benzin</li>
+          </ul>
+          <p>
+
+
+
+  Kraftstoffverbr. komb. (WLTP): 1,3 l/100km<br />         CO2-Emissionen komb. (WLTP): 30 g/km<br />    CO2-Klasse: B <br />        
+
+
+
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungparkpilot-2094169.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2094169&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-2140103.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/5664_1.jpg" class="lazyload img-responsive" alt="Citroen e-C4X  Elektromotor 136 50kWh Shine Pack Navi,Rückfahrkamera,Klimaautomatik," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-2140103.html">Citroen e-C4X  Elektromotor 136 50kWh Shine Pack Na ... </a></h4>
+
+          <div class="h1 h1-clean">25.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">210,-</span> €</div>
+  <div class="h5">Anzahlung 7.800,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>16.000 km</li>
+            <li>EZ 02/2023</li>            <li>100 kW / 136 PS</li>
+                        <li>Artense Grau</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 15,5 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />360 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-2140103.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2140103&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungled-2094168.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/4345_1.jpg" class="lazyload img-responsive" alt="Citroen C5X  Feel PHEV 1.6 Automatik Navi,Rückfahrkamera,Klimaautomatik," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungled-2094168.html">Citroen C5X  Feel PHEV 1.6 Automatik Navi,Rückfahrk ... </a></h4>
+
+          <div class="h1 h1-clean">25.990,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">299,-</span> €</div>
+  <div class="h5">Anzahlung 11.997,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>17.500 km</li>
+            <li>EZ 10/2022</li>            <li>132 kW / 179 PS</li>
+                        <li>Platimium Grau</li>
+            <li>Automatik</li>
+            <li>Hybrid Benzin</li>
+          </ul>
+          <p>
+
+
+
+  Kraftstoffverbr. komb. (WLTP): 1,3 l/100km<br />         CO2-Emissionen komb. (WLTP): 30 g/km<br />    CO2-Klasse: B <br />        
+
+
+
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-c5-x-feel-hybrid-225-e-eat8-navirueckfahrkamerasitzheizungled-2094168.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2094168&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-navirueckfahrkamerasitz-lenkradheizungled-214010.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/6313_1.jpg" class="lazyload img-responsive" alt="Citroen e-C4X  Elektromotor 136 50kWh Shine Pack Navi,Rückfahrkamera,Sitz + Lenkradheizung,LED" width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-navirueckfahrkamerasitz-lenkradheizungled-214010.html">Citroen e-C4X  Elektromotor 136 50kWh Shine Pack Na ... </a></h4>
+
+          <div class="h1 h1-clean">29.890,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">240,-</span> €</div>
+  <div class="h5">Anzahlung 8.970,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>9.000 km</li>
+            <li>EZ 06/2023</li>            <li>100 kW / 136 PS</li>
+                        <li>Elixir-Rot</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 16,6 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />350 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-e-c4-x-elektromotor-136-50kwh-shine-pack-navirueckfahrkamerasitz-lenkradheizungled-214010.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2140102&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-movano-l1h1-28t-22-rueckfahrkameraklimaanlage-2202314.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/8113_1.jpg" class="lazyload img-responsive" alt="Opel Movano  L1H1 2.8t  2.2 Rückfahrkamera,Klimaanlage," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-movano-l1h1-28t-22-rueckfahrkameraklimaanlage-2202314.html">Opel Movano  L1H1 2.8t  2.2 Rückfahrkamera,Klimaanlage, </a></h4>
+
+          <div class="h1 h1-clean">31.490,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">435,-</span> €</div>
+  <div class="h5">Anzahlung 9.597,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>14.999 km</li>
+            <li>EZ 05/2024</li>            <li>88 kW / 120 PS</li>
+                        <li>Weiß</li>
+            <li>Handschaltung</li>
+            <li>Diesel</li>
+          </ul>
+          <p>
+
+
+
+  Kraftstoffverbr. komb. (WLTP): 7,5 l/100km<br />         CO2-Emissionen komb. (WLTP): 214 g/km<br />    CO2-Klasse: G <br />        
+
+
+
+                        </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-movano-l1h1-28t-22-rueckfahrkameraklimaanlage-2202314.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2202314&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/citroen-e-jumper-35-l3h2-batterie-70-kwh-schwebsitz-rueckfahrkameraklimaanlagedab-2166870.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/2966_1.jpg" class="lazyload img-responsive" alt="Citroen e-Jumper  35 +  L3H2 Batterie 70 kWh Schwebsitz, Rückfahrkamera,Klimaanlage,DAB + " width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/citroen-e-jumper-35-l3h2-batterie-70-kwh-schwebsitz-rueckfahrkameraklimaanlagedab-2166870.html">Citroen e-Jumper  35 +  L3H2 Batterie 70 kWh Schweb ... </a></h4>
+
+          <div class="h1 h1-clean">31.900,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">660,-</span> €</div>
+  <div class="h5">Anzahlung 21.200,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Gebrauchtwagen</li>
+            <li>2.529 km</li>
+            <li>EZ 07/2022</li>            <li>96 kW / 131 PS</li>
+                        <li>Banquise-Weiss</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 20 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />224 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/citroen-e-jumper-35-l3h2-batterie-70-kwh-schwebsitz-rueckfahrkameraklimaanlagedab-2166870.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2166870&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-vivaro-cargo-75kwh-l-edition-parksensorklimaanlagetouchscreenholzboden-2115683.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/6113_1.jpg" class="lazyload img-responsive" alt="Opel Vivaro-e  Cargo L 75kWh Parksensor,Klimaanlage,Touchscreen,Holzboden" width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-vivaro-cargo-75kwh-l-edition-parksensorklimaanlagetouchscreenholzboden-2115683.html">Opel Vivaro-e  Cargo L 75kWh Parksensor,Klimaanlage ... </a></h4>
+
+          <div class="h1 h1-clean">35.690,-&nbsp;€</div>
+
+          <div class="h5">&nbsp;</div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">449,-</span> €</div>
+  <div class="h5">Anzahlung 15.800,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Mietwagen</li>
+            <li>13.555 km</li>
+            <li>EZ 05/2023</li>            <li>100 kW / 136 PS</li>
+                        <li>Rot</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 27,5 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />328 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-vivaro-cargo-75kwh-l-edition-parksensorklimaanlagetouchscreenholzboden-2115683.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2115683&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+      <div class="item">
+      <article>
+        <figure><a href="fahrzeuge/online-store/fahrzeug/opel-vivaro-doka-75kwh-edition-m-toter-winkel-assistenttempomateinparkhilfe-2128867.html"><img src="/template/lazy.php?w=1400&h=1050" data-src="uploads/tx_useravaggwboerse/gw008/6614_1.jpg" class="lazyload img-responsive" alt="Opel Vivaro-e  Doka 75kWh Edition M Toter-Winkel-Assistent,Tempomat,Einparkhilfe," width="1400" height="1050" /></a></figure>
+        <header>
+          <h4><a class="link" href="fahrzeuge/online-store/fahrzeug/opel-vivaro-doka-75kwh-edition-m-toter-winkel-assistenttempomateinparkhilfe-2128867.html">Opel Vivaro-e  Doka 75kWh Edition M Toter-Winkel-As ... </a></h4>
+
+          <div class="h1 h1-clean">37.450,-&nbsp;€</div>
+
+          <div class="h5"><span>MwSt. ausweisbar<br /></span></div>
+
+  <br />
+  monatliche Rate
+  <div class="h1 h1-clean" style="margin-top:0;">398,-</span> €</div>
+  <div class="h5">Anzahlung 14.997,00 &euro;</div>
+
+        </header>
+        <div class="article-content">
+          <ul>
+            <li>Vorfuehrer</li>
+            <li>38.338 km</li>
+            <li>EZ 07/2023</li>            <li>100 kW / 136 PS</li>
+            <li>Batteriekapazität: 75 kWh</li>            <li>Schnee Weiß</li>
+            <li>Automatik</li>
+            <li>Elektro</li>
+          </ul>
+          <p>
+
+
+
+      Stromverbrauch des beworbenen Modells komb. (WLTP): 27,3 kWh/100km<br />    CO2-Emissionen komb. (WLTP): 0 g/km<br />    CO2-Klasse: A <br />        
+
+
+Elektrische Reichweite nach WLTP**:<br />329 km<br />
+              CO2-Effizienzklasse:
+              A+++                                                                                                                                                    </p>
+        </div>
+        <footer>
+          <a href="fahrzeuge/online-store/fahrzeug/opel-vivaro-doka-75kwh-edition-m-toter-winkel-assistenttempomateinparkhilfe-2128867.html" class="btn btn-primary btn-block text-left" role="button">Details <span class="fa fa-chevron-right"></span></a>
+          <a href="kontakt/probefahrt.html?ShowUid=2128867&no_cache=1" class="btn btn-default btn-block text-left" role="button">Probefahrt</a>
+        </footer>
+      </article>
+    </div>
+  </div>
+<script type="text/javascript">
+<!--
+  $(document).ready(function(){
+    $('#myCarousel242').owlCarousel({
+      loop:true,
+      autoplay:true,
+      margin:10,
+      nav:true,
+      dots:false,
+      navText: ["<span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>","<span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>"],
+      responsive:{
+          0:{
+              items:1
+          },
+          1000:{
+              items:2
+          },
+          1200:{
+              items:3
+          }
+      }
+    });
+  });
+// -->
+</script>
+
+
+	</div>
+	</div></div></div></section></div><div id="c5" class="csc-frame csc-frame-default"><section class="section-light"><div class="container"><div class="row"><div class="col-lg-12"><div class="csc-header csc-header-n1"><div class="page-header"><h1>Aus unserer Werbung</h1></div></div></div><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><div class="user-avagservicelister-pi1">
+		  <article class="aap-baseballcard">
+    <figure class="aap-image">
+      <a href="werkstatt/aktuelle-angebote/service/winter-check-3003.html"><img src="/template/lazy.php?w=1000&h=400" data-src="uploads/tx_useravaggwboerse/gw000/serviceliste/dio_0000003003.jpg" alt="Frühjahrs-Check" class="lazyload img-responsive" /></a>
+    </figure>
+    <header>
+      <h4 class="highlight">TOP Werkstatt-Angebot</h4>      <div class="h2">Frühjahrs-Check</div>
+      <div class="h1 h1-clean">49,00&nbsp;€</div>
+      <div class="h5"><span>MwSt. ausweisbar<br />&nbsp;</span></div>
+    </header>
+    <div class="article-content">
+      <p>
+         Gehen Sie auf Nummer sicher - mit unserem Fahrzeug-Check.               </p>
+    </div>
+    <footer>
+      <a class="btn btn-primary btn-block text-left" role="button" href="werkstatt/aktuelle-angebote/service/winter-check-3003.html">Zum Angebot <span class="fa fa-chevron-right"></span></a>
+    </footer>
+  </article>
+
+	</div>
+	</div><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><div class="user-avagservicelister-pi1">
+		  <article class="aap-baseballcard">
+    <figure class="aap-image">
+      <a href="teile-zubehoer/teile-zubehoer-angebote/teile/warndreieck-255.html"><img src="/template/lazy.php?w=1000&h=400" data-src="uploads/tx_useravaggwboerse/gw000/serviceliste/dio_Teil_0000000255.jpg" alt="Warndreieck" class="lazyload img-responsive" /></a>
+    </figure>
+    <header>
+      <h4 class="highlight">TOP Teile&Zubehör</h4>      <div class="h2">Warndreieck</div>
+      <div class="h1 h1-clean">8,34&nbsp;€</div>
+      <div class="h5"><span>MwSt. ausweisbar<br />&nbsp;</span></div>
+    </header>
+    <div class="article-content">
+      <p>
+         Warndreieck               </p>
+    </div>
+    <footer>
+      <a class="btn btn-primary btn-block text-left" role="button" href="teile-zubehoer/teile-zubehoer-angebote/teile/warndreieck-255.html">Zum Angebot <span class="fa fa-chevron-right"></span></a>
+    </footer>
+  </article>
+
+	</div>
+	</div><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><div class="user-avagservicelister-pi1">
+		  <article class="aap-baseballcard">
+    <figure class="aap-image">
+      <a href="teile-zubehoer/reifen-angebote/teile/semperit-speed-grip-5-19565-r-15-95-t-8666.html"><img src="/template/lazy.php?w=1000&h=454" data-src="uploads/tx_useravaggwboerse/gw000/serviceliste/dio_Teil_0000008666.jpg" alt="Semperit Speed-Grip 5 195/65 R 15 95 T" class="lazyload img-responsive" /></a>
+    </figure>
+    <header>
+      <h4 class="highlight">TOP Reifen-Angebote</h4>      <div class="h2">Semperit Speed-Grip 5 195/65 R 15 95 T</div>
+      <div class="h1 h1-clean">90,00&nbsp;€</div>
+      <div class="h5"><span>MwSt. ausweisbar<br />&nbsp;</span></div>
+    </header>
+    <div class="article-content">
+      <p>
+                             Rollwiderstand: C;
+           Nasshaftung: B;
+           Geräuschklasse: 2 (Geräuschemission in db: 72);
+           Dimensionen: 195/65 R 15 95 T
+              </p>
+    </div>
+    <footer>
+      <a class="btn btn-primary btn-block text-left" role="button" href="teile-zubehoer/reifen-angebote/teile/semperit-speed-grip-5-19565-r-15-95-t-8666.html">Zum Angebot <span class="fa fa-chevron-right"></span></a>
+    </footer>
+  </article>
+
+	</div>
+	</div></div></div></section></div>
+
+  
+  
+  <div id="c3010" class="csc-frame csc-frame-default"></div>
+
+  <section class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+              <p>
+                Copyright &copy;&nbsp;2025&nbsp;Opel&Beyschlag GmbH<span class="hidden-print">&nbsp;&#124;&nbsp;<a href="impressum.html">Impressum</a>&nbsp;&#124;&nbsp;<a href="agb.html">AGB</a>&nbsp;&#124;&nbsp;<a href="datenschutz.html">Datenschutz</a>&nbsp;&#124;&nbsp;<a href="lieferantenkodex.html">Lieferantenkodex</a>&nbsp;&#124;&nbsp;<a href="hinweisgebersystem.html">Hinweisgebersystem</a>&nbsp;&#124;&nbsp;<a href="https://www.kia-beyschlag.at/fileadmin/PDFs/AGBs/AGB_AT_Gebrauchtwagen.pdf">AGB Gebrauchtwagen</a>&nbsp;&#124;&nbsp;<a href="https://www.kia-beyschlag.at/fileadmin/PDFs/AGBs/AGB_AT_Neuwagen.pdf">AGB Neuwagen</a>&nbsp;&#124;&nbsp;<a href="https://www.kia-beyschlag.at/fileadmin/PDFs/AGBs/AGB_AT_Autovermietung.pdf">AGB Vermietung</a>&nbsp;&#124;&nbsp;<a href="https://www.kia-beyschlag.at/fileadmin/PDFs/AGBs/G5_Garantieheft.pdf">Garantiebedingungen</a></span>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-right"><script type="text/javascript" id="522ebcd7ae5c38d9a9dec7d78e60541f" src="https://autohaus.chat/beyschlag/script.php?id=522ebcd7ae5c38d9a9dec7d78e60541f" defer></script></div>
+        </div>
+    </div>
+    <div class="bottom-row"><div class="container text-right"><img src="template/images/lg_footer_kia.png"  alt="Kia - The Power to Surprise"></div></div>
+  </section>
+
+  
+
+  <p id="back-top"><a href="#top"><i class="fa fa-angle-up"></i></a></p>
+
+  <script src="template/js/scripts.min.js?v=1.0.4"></script>
+
+
+
+
+</body>
+</html>
