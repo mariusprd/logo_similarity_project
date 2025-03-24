@@ -74,7 +74,7 @@ Some visualizations of the grouped logos are provided in the `visualizations` fo
 
 ## Result visualization example
 
-Below is an example of a visualization of grouped logos based on features extracted using a CNN model. The logos are grouped based on the graph-based clustering algorithm. In the image there are only 30 of the logo groups.
+Below is an example of a visualization of grouped logos based on perceptual hashing. The logos are grouped using a graph-based clustering algorithm. In the image there are only 30 of the logo groups.
 
-![Grouped Logos](visualizations/grouped_conv_features_graph_based_clusters_visualization.png)
+![Grouped Logos](visualizations/grouped_phash_graph_based_clusters_visualization.png)
 
